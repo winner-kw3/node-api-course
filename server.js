@@ -9,7 +9,7 @@ const PORT = 3000;
 app.use(morgan('dev'));
 
 app.get('/', (req, res) => {
-    res.send('Bienvenue sur mon serveur');
+    res.send('Bienvenue sur le serveur');
 });
 
 app.get('/books', getBooks);
